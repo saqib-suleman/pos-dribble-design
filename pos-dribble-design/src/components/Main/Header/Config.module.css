@@ -1,0 +1,25 @@
+.config {
+  flex: 1;
+  padding: 1rem;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonsWrapper button {
+  margin: 0 1rem;
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+  color: #58be46;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 7px 7px 9px -5px rgba(0, 0, 0, 0.28);
+}
+
+.buttonsWrapper button svg {
+  width: 3rem;
+  height: 3rem;
+}

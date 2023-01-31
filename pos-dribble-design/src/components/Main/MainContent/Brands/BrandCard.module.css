@@ -1,0 +1,51 @@
+.Card {
+  height: 20rem;
+  width: 17rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -1px 5px 15px -5px rgba(0, 0, 0, 0.28);
+  border-radius: 1rem;
+  /* overflow: hidden; */
+  position: relative;
+  z-index: 0;
+}
+
+.Card::before {
+  content: "";
+  width: 4rem;
+  height: 3rem;
+  background-color: #1b78d7;
+  align-self: flex-end;
+  position: absolute;
+  border-radius: 0.5rem;
+  top: -0.7rem;
+  z-index: -1;
+}
+
+.Card .upperBody {
+  background-color: #208bff;
+  flex: 4;
+  border-radius: 1rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 4.5rem 2rem;
+}
+
+.Card .upperBody .brandName {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.Card .upperBody .articles {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.Card .lowerBody {
+  background-color: #ffffff;
+  width: 100%;
+  font-size: 1.8rem;
+  flex: 1;
+  text-align: center;
+  line-height: 4rem;
+  border-radius: 0 0 1rem 1rem;
+}
