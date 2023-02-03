@@ -1,9 +1,10 @@
 .Card {
   height: 20rem;
-  width: 17rem;
+  width: calc(20% - 4rem);
+  margin: 2rem;
   display: flex;
   flex-direction: column;
-  box-shadow: -1px 5px 15px -5px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 10px 15px -4px rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
   /* overflow: hidden; */
   position: relative;
@@ -28,7 +29,9 @@
   border-radius: 1rem;
   text-align: center;
   color: #ffffff;
-  padding: 4.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Card .upperBody .brandName {

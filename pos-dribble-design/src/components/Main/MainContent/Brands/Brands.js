@@ -1,11 +1,16 @@
 import React from "react";
+import CardsWrapper from "../../../UI/CardsWrapper";
 import BrandCard from "./BrandCard";
 
 function Brands() {
   return (
-    <div>
+    <CardsWrapper>
       <BrandCard />
-    </div>
+      <BrandCard />
+      <BrandCard />
+      <BrandCard />
+      <BrandCard />
+    </CardsWrapper>
   );
 }
 

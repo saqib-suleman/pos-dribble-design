@@ -1,11 +1,15 @@
 import React from "react";
+import CardsWrapper from "../../../UI/CardsWrapper";
 import ArticleCard from "./ArticleCard";
+import { NIKE_ARTICLES_DATA } from "../../../../seeds/ARTICLES_DATA";
 
 function Articles() {
   return (
-    <div>
-      <ArticleCard />
-    </div>
+    <CardsWrapper>
+      {NIKE_ARTICLES_DATA.map((article) => (
+        <ArticleCard key={Math.random()} article={article} />
+      ))}
+    </CardsWrapper>
   );
 }
 
