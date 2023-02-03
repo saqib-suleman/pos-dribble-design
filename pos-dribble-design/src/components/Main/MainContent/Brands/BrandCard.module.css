@@ -11,11 +11,10 @@
   z-index: 0;
 }
 
-.Card::before {
-  content: "";
+.Card .Notch {
   width: 4rem;
   height: 3rem;
-  background-color: #1b78d7;
+  /* background-color: #1b78d7; */
   align-self: flex-end;
   position: absolute;
   border-radius: 0.5rem;
@@ -24,7 +23,7 @@
 }
 
 .Card .upperBody {
-  background-color: #208bff;
+  /* background-color: #208bff; */
   flex: 4;
   border-radius: 1rem;
   text-align: center;

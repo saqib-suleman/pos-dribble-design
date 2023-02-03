@@ -12,6 +12,7 @@ import PNG10 from "../assets/articles-imgs/PNG10.png";
 export const NIKE_ARTICLES_DATA = [
   {
     id: Math.random(),
+    brand: "Nike",
     name: "Nike Purple",
     imgUrl: PNG1,
     price: "$299",
@@ -19,6 +20,7 @@ export const NIKE_ARTICLES_DATA = [
   },
   {
     id: Math.random(),
+    brand: "Nike",
     name: "Nike White",
     imgUrl: PNG2,
     price: "$199",
@@ -26,6 +28,7 @@ export const NIKE_ARTICLES_DATA = [
   },
   {
     id: Math.random(),
+    brand: "Nike",
     name: "Nike Khaki",
     imgUrl: PNG3,
     price: "$499",
@@ -33,6 +36,7 @@ export const NIKE_ARTICLES_DATA = [
   },
   {
     id: Math.random(),
+    brand: "Nike",
     name: "Nike Red",
     imgUrl: PNG4,
     price: "$249",
@@ -40,6 +44,7 @@ export const NIKE_ARTICLES_DATA = [
   },
   {
     id: Math.random(),
+    brand: "Nike",
     name: "Nike Fire",
     imgUrl: PNG5,
     price: "$799",
@@ -47,6 +52,7 @@ export const NIKE_ARTICLES_DATA = [
   },
   {
     id: Math.random(),
+    brand: "Nike",
     name: "Nike Bumble",
     imgUrl: PNG6,
     price: "$459",
@@ -54,6 +60,7 @@ export const NIKE_ARTICLES_DATA = [
   },
   {
     id: Math.random(),
+    brand: "Nike",
     name: "Nike Long",
     imgUrl: PNG7,
     price: "$295",
@@ -61,6 +68,7 @@ export const NIKE_ARTICLES_DATA = [
   },
   {
     id: Math.random(),
+    brand: "Nike",
     name: "Nike Green",
     imgUrl: PNG8,
     price: "$499",
@@ -68,6 +76,7 @@ export const NIKE_ARTICLES_DATA = [
   },
   {
     id: Math.random(),
+    brand: "Nike",
     name: "Nike Ojay",
     imgUrl: PNG9,
     price: "$495",
@@ -75,9 +84,18 @@ export const NIKE_ARTICLES_DATA = [
   },
   {
     id: Math.random(),
+    brand: "Nike",
     name: "Nike Cream",
     imgUrl: PNG10,
     price: "$999",
     inventory: 5,
   },
+];
+
+export const BRANDS_DATA = [
+  { name: "Nike", articles: NIKE_ARTICLES_DATA.length },
+  { name: "Adidas", articles: NIKE_ARTICLES_DATA.length },
+  { name: "Reebok", articles: NIKE_ARTICLES_DATA.length },
+  { name: "Puma", articles: NIKE_ARTICLES_DATA.length },
+  { name: "Vans", articles: NIKE_ARTICLES_DATA.length },
 ];

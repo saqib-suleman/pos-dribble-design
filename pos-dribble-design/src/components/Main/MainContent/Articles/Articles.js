@@ -1,7 +1,7 @@
 import React from "react";
 import CardsWrapper from "../../../UI/CardsWrapper";
 import ArticleCard from "./ArticleCard";
-import { NIKE_ARTICLES_DATA } from "../../../../seeds/ARTICLES_DATA";
+import { NIKE_ARTICLES_DATA } from "../../../../seeds/INVENTORY";
 
 function Articles() {
   return (
