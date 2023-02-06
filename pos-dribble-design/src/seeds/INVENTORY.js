@@ -266,30 +266,7 @@ export const ADIDAS_ARTICLES_DATA = [
     price: "$299",
     inventory: 13,
   },
-  {
-    id: Math.random(),
-    brand: "Adidas",
-    name: "Adidas Khaki",
-    imgUrl: PNG3,
-    price: "$499",
-    inventory: 3,
-  },
-  {
-    id: Math.random(),
-    brand: "Adidas",
-    name: "Adidas Red",
-    imgUrl: PNG4,
-    price: "$249",
-    inventory: 19,
-  },
-  {
-    id: Math.random(),
-    brand: "Adidas",
-    name: "Adidas Fire",
-    imgUrl: PNG5,
-    price: "$799",
-    inventory: 12,
-  },
+
   {
     id: Math.random(),
     brand: "Adidas",
@@ -528,38 +505,7 @@ export const REEBOK_ARTICLES_DATA = [
     price: "$459",
     inventory: 6,
   },
-  {
-    id: Math.random(),
-    brand: "Reebok",
-    name: "Reebok White",
-    imgUrl: PNG2,
-    price: "$199",
-    inventory: 11,
-  },
-  {
-    id: Math.random(),
-    brand: "Reebok",
-    name: "Reebok Khaki",
-    imgUrl: PNG3,
-    price: "$499",
-    inventory: 3,
-  },
-  {
-    id: Math.random(),
-    brand: "Reebok",
-    name: "Reebok Red",
-    imgUrl: PNG4,
-    price: "$249",
-    inventory: 19,
-  },
-  {
-    id: Math.random(),
-    brand: "Reebok",
-    name: "Reebok Long",
-    imgUrl: PNG7,
-    price: "$295",
-    inventory: 18,
-  },
+
   {
     id: Math.random(),
     brand: "Reebok",
@@ -808,30 +754,7 @@ export const PUMA_ARTICLES_DATA = [
     price: "$499",
     inventory: 3,
   },
-  {
-    id: Math.random(),
-    brand: "Puma",
-    name: "Puma Red",
-    imgUrl: PNG4,
-    price: "$249",
-    inventory: 19,
-  },
-  {
-    id: Math.random(),
-    brand: "Puma",
-    name: "Puma Long",
-    imgUrl: PNG7,
-    price: "$295",
-    inventory: 18,
-  },
-  {
-    id: Math.random(),
-    brand: "Puma",
-    name: "Puma Ojay",
-    imgUrl: PNG9,
-    price: "$495",
-    inventory: 13,
-  },
+
   {
     id: Math.random(),
     brand: "Puma",
@@ -1012,7 +935,6 @@ export const VANS_ARTICLES_DATA = [
     price: "$199",
     inventory: 11,
   },
-
   {
     id: Math.random(),
     brand: "Vans",
@@ -1068,38 +990,6 @@ export const VANS_ARTICLES_DATA = [
     imgUrl: PNG8,
     price: "$499",
     inventory: 17,
-  },
-  {
-    id: Math.random(),
-    brand: "Vans",
-    name: "Vans Ojay",
-    imgUrl: PNG9,
-    price: "$495",
-    inventory: 13,
-  },
-  {
-    id: Math.random(),
-    brand: "Vans",
-    name: "Vans Cream",
-    imgUrl: PNG10,
-    price: "$999",
-    inventory: 5,
-  },
-  {
-    id: Math.random(),
-    brand: "Vans",
-    name: "Vans Ghost",
-    imgUrl: PNG15,
-    price: "$799",
-    inventory: 11,
-  },
-  {
-    id: Math.random(),
-    brand: "Vans",
-    name: "Vans Khaki",
-    imgUrl: PNG3,
-    price: "$499",
-    inventory: 3,
   },
   {
     id: Math.random(),
@@ -1281,9 +1171,9 @@ export const VANS_ARTICLES_DATA = [
 ];
 
 export const BRANDS_DATA = [
-  { name: "Nike", articles: NIKE_ARTICLES_DATA.length },
-  { name: "Adidas", articles: ADIDAS_ARTICLES_DATA.length },
-  { name: "Reebok", articles: REEBOK_ARTICLES_DATA.length },
-  { name: "Puma", articles: PUMA_ARTICLES_DATA.length },
-  { name: "Vans", articles: VANS_ARTICLES_DATA.length },
+  { id: Math.random(), name: "Nike", articles: NIKE_ARTICLES_DATA.length },
+  { id: Math.random(), name: "Adidas", articles: ADIDAS_ARTICLES_DATA.length },
+  { id: Math.random(), name: "Reebok", articles: REEBOK_ARTICLES_DATA.length },
+  { id: Math.random(), name: "Puma", articles: PUMA_ARTICLES_DATA.length },
+  { id: Math.random(), name: "Vans", articles: VANS_ARTICLES_DATA.length },
 ];

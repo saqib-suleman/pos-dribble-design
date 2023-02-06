@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import classes from "./BrandCard.module.css";
+import { Link } from "react-router-dom";
 
 function BrandCard({ brand }) {
   // const [brand, setBrand] = useState("");
@@ -53,16 +54,18 @@ function BrandCard({ brand }) {
   }
 
   return (
-    <>
-      <div className={classes.Card}>
-        <div className={classes.Notch} style={NotchColor}></div>
-        <article className={classes.upperBody} style={CardColor}>
-          <h3 className={classes.brandName}>{brand.name}</h3>
-          <span className={classes.articles}>{brand.articles} articles</span>
-        </article>
-        <span className={classes.lowerBody}>{brand.name}</span>
-      </div>
-    </>
+    <Link
+      to={`/${brand.name}`}
+      style={{ textDecoration: "none", color: "black" }}
+      className={classes.Card}
+    >
+      <div className={classes.Notch} style={NotchColor}></div>
+      <article className={classes.upperBody} style={CardColor}>
+        <h3 className={classes.brandName}>{brand.name}</h3>
+        <span className={classes.articles}>{brand.articles} articles</span>
+      </article>
+      <span className={classes.lowerBody}>{brand.name}</span>
+    </Link>
   );
 }
 
