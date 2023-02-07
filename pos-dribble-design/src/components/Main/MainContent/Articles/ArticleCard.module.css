@@ -7,7 +7,7 @@
   box-shadow: 0px 3px 15px -4px rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
   /* overflow: hidden; */
-  position: relative;
+  /* position: relative; */
   z-index: 0;
 }
 
@@ -36,4 +36,26 @@
   text-align: center;
   line-height: 4rem;
   border-radius: 0 0 1rem 1rem;
+}
+
+.Card .on_enter {
+  height: 20rem;
+  width: 20rem;
+  background-color: rgb(0, 0, 0, 0.7);
+  position: absolute;
+  z-index: 10;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Card .on_enter span {
+  font-size: 5rem;
+  color: #ffffff;
+  flex: 3;
+}
+
+.Card .on_enter button {
+  flex: 1;
 }
