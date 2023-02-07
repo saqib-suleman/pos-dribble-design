@@ -1,0 +1,4 @@
+.Brands {
+  display: flex;
+  flex-wrap: wrap;
+}

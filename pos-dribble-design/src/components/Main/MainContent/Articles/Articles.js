@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import CardsWrapper from "../../../UI/CardsWrapper";
 import Pagination from "../../../UI/Pagination";
 import ArticleCard from "./ArticleCard";
+import classes from "./Articles.module.css";
 
 function Articles({ articles }) {
   const [currentPage, setCurrentPage] = useState(1);
@@ -21,7 +22,7 @@ function Articles({ articles }) {
   }, [articles]);
 
   return (
-    <>
+    <div className={classes.Articles}>
       <CardsWrapper>
         {currentArticles.map((article) => (
           <ArticleCard key={article.id} article={article} />
@@ -32,7 +33,7 @@ function Articles({ articles }) {
         totalArticles={articles.length}
         paginate={paginate}
       />
-    </>
+    </div>
   );
 }
 

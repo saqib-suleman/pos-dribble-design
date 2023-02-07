@@ -1,15 +1,15 @@
 import React from "react";
-import CardsWrapper from "../../../UI/CardsWrapper";
+import classes from "./Brands.module.css";
 import BrandCard from "./BrandCard";
 import { BRANDS_DATA } from "../../../../seeds/INVENTORY";
 
 function Brands() {
   return (
-    <CardsWrapper>
+    <div className={classes.Brands}>
       {BRANDS_DATA.map((brand) => (
         <BrandCard key={brand.id} brand={brand} />
       ))}
-    </CardsWrapper>
+    </div>
   );
 }
 

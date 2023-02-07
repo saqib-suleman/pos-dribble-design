@@ -1,10 +1,5 @@
 .CardsWrapper {
   display: flex;
-  /* justify-content: space-between; */
-  /* margin-top: 5rem; */
   flex-wrap: wrap;
+  min-height: 48rem;
 }
-
-/* .CardsWrapper > * {
-  flex: 0 0 20%;
-} */
