@@ -1,25 +1,10 @@
-import PNG1 from "../assets/articles-imgs/PNG1.png";
-import PNG2 from "../assets/articles-imgs/PNG2.png";
-import PNG3 from "../assets/articles-imgs/PNG3.png";
-import PNG4 from "../assets/articles-imgs/PNG4.png";
-import PNG5 from "../assets/articles-imgs/PNG5.png";
-import PNG6 from "../assets/articles-imgs/PNG6.png";
-import PNG7 from "../assets/articles-imgs/PNG7.png";
-import PNG8 from "../assets/articles-imgs/PNG8.png";
-import PNG9 from "../assets/articles-imgs/PNG9.png";
-import PNG10 from "../assets/articles-imgs/PNG10.png";
-import PNG11 from "../assets/articles-imgs/PNG11.png";
-import PNG12 from "../assets/articles-imgs/PNG12.png";
-import PNG13 from "../assets/articles-imgs/PNG13.png";
-import PNG14 from "../assets/articles-imgs/PNG14.png";
-import PNG15 from "../assets/articles-imgs/PNG15.png";
-
 export const NIKE_ARTICLES_DATA = [
   {
     id: Math.random(),
     brand: "Nike",
     name: "Nike Purple",
-    imgUrl: PNG1,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775674/POS-Dribble/PNG1_egvyvf.png",
     price: "$299",
     inventory: 13,
   },
@@ -27,7 +12,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike White",
-    imgUrl: PNG2,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775658/POS-Dribble/PNG2_odrgyz.png",
     price: "$199",
     inventory: 11,
   },
@@ -35,7 +21,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Khaki",
-    imgUrl: PNG3,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG3_ppnoyl.png",
     price: "$499",
     inventory: 3,
   },
@@ -43,7 +30,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Red",
-    imgUrl: PNG4,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG4_yi36jw.png",
     price: "$249",
     inventory: 19,
   },
@@ -51,7 +39,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Fire",
-    imgUrl: PNG5,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG5_tebxu6.png",
     price: "$799",
     inventory: 12,
   },
@@ -59,7 +48,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Bumble",
-    imgUrl: PNG6,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG6_wtifwf.png",
     price: "$459",
     inventory: 6,
   },
@@ -67,7 +57,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Long",
-    imgUrl: PNG7,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG7_gd15ti.png",
     price: "$295",
     inventory: 18,
   },
@@ -75,7 +66,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Green",
-    imgUrl: PNG8,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG8_pcrqdw.png",
     price: "$499",
     inventory: 17,
   },
@@ -83,7 +75,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Ojay",
-    imgUrl: PNG9,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG9_kpezlx.png",
     price: "$495",
     inventory: 13,
   },
@@ -91,7 +84,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Cream",
-    imgUrl: PNG10,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG10_een5vd.png",
     price: "$999",
     inventory: 5,
   },
@@ -99,7 +93,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Black Fire",
-    imgUrl: PNG11,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG11_pbgfbp.png",
     price: "$699",
     inventory: 16,
   },
@@ -107,7 +102,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Black & White",
-    imgUrl: PNG12,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775667/POS-Dribble/PNG12_zv9xqt.png",
     price: "$399",
     inventory: 8,
   },
@@ -115,7 +111,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Sky Blue",
-    imgUrl: PNG13,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775663/POS-Dribble/PNG13_ych1c3.png",
     price: "$699",
     inventory: 7,
   },
@@ -123,7 +120,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Colors",
-    imgUrl: PNG14,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG14_nuavlz.png",
     price: "$499",
     inventory: 3,
   },
@@ -131,7 +129,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Ghost",
-    imgUrl: PNG15,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775664/POS-Dribble/PNG15_eg3tzg.png",
     price: "$799",
     inventory: 11,
   },
@@ -139,7 +138,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Purple",
-    imgUrl: PNG1,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775674/POS-Dribble/PNG1_egvyvf.png",
     price: "$299",
     inventory: 13,
   },
@@ -147,7 +147,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike White",
-    imgUrl: PNG2,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775658/POS-Dribble/PNG2_odrgyz.png",
     price: "$199",
     inventory: 11,
   },
@@ -155,7 +156,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Khaki",
-    imgUrl: PNG3,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG3_ppnoyl.png",
     price: "$499",
     inventory: 3,
   },
@@ -163,7 +165,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Red",
-    imgUrl: PNG4,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG4_yi36jw.png",
     price: "$249",
     inventory: 19,
   },
@@ -171,7 +174,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Fire",
-    imgUrl: PNG5,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG5_tebxu6.png",
     price: "$799",
     inventory: 12,
   },
@@ -179,7 +183,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Bumble",
-    imgUrl: PNG6,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG6_wtifwf.png",
     price: "$459",
     inventory: 6,
   },
@@ -187,7 +192,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Long",
-    imgUrl: PNG7,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG7_gd15ti.png",
     price: "$295",
     inventory: 18,
   },
@@ -195,7 +201,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Green",
-    imgUrl: PNG8,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG8_pcrqdw.png",
     price: "$499",
     inventory: 17,
   },
@@ -203,7 +210,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Ojay",
-    imgUrl: PNG9,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG9_kpezlx.png",
     price: "$495",
     inventory: 13,
   },
@@ -211,7 +219,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Cream",
-    imgUrl: PNG10,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG10_een5vd.png",
     price: "$999",
     inventory: 5,
   },
@@ -219,7 +228,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Black Fire",
-    imgUrl: PNG11,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG11_pbgfbp.png",
     price: "$699",
     inventory: 16,
   },
@@ -227,7 +237,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Black & White",
-    imgUrl: PNG12,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775667/POS-Dribble/PNG12_zv9xqt.png",
     price: "$399",
     inventory: 8,
   },
@@ -235,7 +246,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Sky Blue",
-    imgUrl: PNG13,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775663/POS-Dribble/PNG13_ych1c3.png",
     price: "$699",
     inventory: 7,
   },
@@ -243,7 +255,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Colors",
-    imgUrl: PNG14,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG14_nuavlz.png",
     price: "$499",
     inventory: 3,
   },
@@ -251,7 +264,8 @@ export const NIKE_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Nike",
     name: "Nike Ghost",
-    imgUrl: PNG15,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775664/POS-Dribble/PNG15_eg3tzg.png",
     price: "$799",
     inventory: 11,
   },
@@ -262,7 +276,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Purple",
-    imgUrl: PNG1,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775674/POS-Dribble/PNG1_egvyvf.png",
     price: "$299",
     inventory: 13,
   },
@@ -271,7 +286,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas White",
-    imgUrl: PNG2,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775658/POS-Dribble/PNG2_odrgyz.png",
     price: "$199",
     inventory: 11,
   },
@@ -280,7 +296,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Bumble",
-    imgUrl: PNG6,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG6_wtifwf.png",
     price: "$459",
     inventory: 6,
   },
@@ -288,7 +305,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Long",
-    imgUrl: PNG7,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG7_gd15ti.png",
     price: "$295",
     inventory: 18,
   },
@@ -296,7 +314,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Green",
-    imgUrl: PNG8,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG8_pcrqdw.png",
     price: "$499",
     inventory: 17,
   },
@@ -304,7 +323,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Ojay",
-    imgUrl: PNG9,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG9_kpezlx.png",
     price: "$495",
     inventory: 13,
   },
@@ -312,7 +332,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Cream",
-    imgUrl: PNG10,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG10_een5vd.png",
     price: "$999",
     inventory: 5,
   },
@@ -320,7 +341,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Black Fire",
-    imgUrl: PNG11,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG11_pbgfbp.png",
     price: "$699",
     inventory: 16,
   },
@@ -328,7 +350,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Purple",
-    imgUrl: PNG1,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775674/POS-Dribble/PNG1_egvyvf.png",
     price: "$299",
     inventory: 13,
   },
@@ -336,7 +359,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas White",
-    imgUrl: PNG2,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775658/POS-Dribble/PNG2_odrgyz.png",
     price: "$199",
     inventory: 11,
   },
@@ -344,7 +368,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Khaki",
-    imgUrl: PNG3,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG3_ppnoyl.png",
     price: "$499",
     inventory: 3,
   },
@@ -352,7 +377,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Red",
-    imgUrl: PNG4,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG4_yi36jw.png",
     price: "$249",
     inventory: 19,
   },
@@ -360,7 +386,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Black & White",
-    imgUrl: PNG12,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775667/POS-Dribble/PNG12_zv9xqt.png",
     price: "$399",
     inventory: 8,
   },
@@ -368,7 +395,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Sky Blue",
-    imgUrl: PNG13,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775663/POS-Dribble/PNG13_ych1c3.png",
     price: "$699",
     inventory: 7,
   },
@@ -376,7 +404,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Colors",
-    imgUrl: PNG14,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG14_nuavlz.png",
     price: "$499",
     inventory: 3,
   },
@@ -384,7 +413,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Ghost",
-    imgUrl: PNG15,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775664/POS-Dribble/PNG15_eg3tzg.png",
     price: "$799",
     inventory: 11,
   },
@@ -393,7 +423,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Fire",
-    imgUrl: PNG5,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG5_tebxu6.png",
     price: "$799",
     inventory: 12,
   },
@@ -401,7 +432,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Bumble",
-    imgUrl: PNG6,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG6_wtifwf.png",
     price: "$459",
     inventory: 6,
   },
@@ -409,7 +441,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Black Fire",
-    imgUrl: PNG11,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG11_pbgfbp.png",
     price: "$699",
     inventory: 16,
   },
@@ -417,7 +450,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Black & White",
-    imgUrl: PNG12,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775667/POS-Dribble/PNG12_zv9xqt.png",
     price: "$399",
     inventory: 8,
   },
@@ -425,7 +459,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Sky Blue",
-    imgUrl: PNG13,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775663/POS-Dribble/PNG13_ych1c3.png",
     price: "$699",
     inventory: 7,
   },
@@ -433,7 +468,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Colors",
-    imgUrl: PNG14,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG14_nuavlz.png",
     price: "$499",
     inventory: 3,
   },
@@ -441,7 +477,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Ghost",
-    imgUrl: PNG15,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775664/POS-Dribble/PNG15_eg3tzg.png",
     price: "$799",
     inventory: 11,
   },
@@ -449,7 +486,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Long",
-    imgUrl: PNG7,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG7_gd15ti.png",
     price: "$295",
     inventory: 18,
   },
@@ -457,7 +495,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Green",
-    imgUrl: PNG8,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG8_pcrqdw.png",
     price: "$499",
     inventory: 17,
   },
@@ -465,7 +504,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Ojay",
-    imgUrl: PNG9,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG9_kpezlx.png",
     price: "$495",
     inventory: 13,
   },
@@ -473,7 +513,8 @@ export const ADIDAS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Adidas",
     name: "Adidas Cream",
-    imgUrl: PNG10,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG10_een5vd.png",
     price: "$999",
     inventory: 5,
   },
@@ -484,7 +525,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Purple",
-    imgUrl: PNG1,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775674/POS-Dribble/PNG1_egvyvf.png",
     price: "$299",
     inventory: 13,
   },
@@ -493,7 +535,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Fire",
-    imgUrl: PNG5,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG5_tebxu6.png",
     price: "$799",
     inventory: 12,
   },
@@ -501,7 +544,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Bumble",
-    imgUrl: PNG6,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG6_wtifwf.png",
     price: "$459",
     inventory: 6,
   },
@@ -510,7 +554,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Green",
-    imgUrl: PNG8,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG8_pcrqdw.png",
     price: "$499",
     inventory: 17,
   },
@@ -518,7 +563,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Ojay",
-    imgUrl: PNG9,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG9_kpezlx.png",
     price: "$495",
     inventory: 13,
   },
@@ -526,7 +572,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Cream",
-    imgUrl: PNG10,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG10_een5vd.png",
     price: "$999",
     inventory: 5,
   },
@@ -534,7 +581,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Black Fire",
-    imgUrl: PNG11,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG11_pbgfbp.png",
     price: "$699",
     inventory: 16,
   },
@@ -542,7 +590,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok White",
-    imgUrl: PNG2,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775658/POS-Dribble/PNG2_odrgyz.png",
     price: "$199",
     inventory: 11,
   },
@@ -550,7 +599,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Khaki",
-    imgUrl: PNG3,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG3_ppnoyl.png",
     price: "$499",
     inventory: 3,
   },
@@ -558,7 +608,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Red",
-    imgUrl: PNG4,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG4_yi36jw.png",
     price: "$249",
     inventory: 19,
   },
@@ -566,7 +617,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Cream",
-    imgUrl: PNG10,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG10_een5vd.png",
     price: "$999",
     inventory: 5,
   },
@@ -574,7 +626,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Colors",
-    imgUrl: PNG14,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG14_nuavlz.png",
     price: "$499",
     inventory: 3,
   },
@@ -582,7 +635,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Black & White",
-    imgUrl: PNG12,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775667/POS-Dribble/PNG12_zv9xqt.png",
     price: "$399",
     inventory: 8,
   },
@@ -590,7 +644,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Sky Blue",
-    imgUrl: PNG13,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775663/POS-Dribble/PNG13_ych1c3.png",
     price: "$699",
     inventory: 7,
   },
@@ -599,7 +654,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Ghost",
-    imgUrl: PNG15,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775664/POS-Dribble/PNG15_eg3tzg.png",
     price: "$799",
     inventory: 11,
   },
@@ -607,7 +663,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Purple",
-    imgUrl: PNG1,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775674/POS-Dribble/PNG1_egvyvf.png",
     price: "$299",
     inventory: 13,
   },
@@ -616,7 +673,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Black Fire",
-    imgUrl: PNG11,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG11_pbgfbp.png",
     price: "$699",
     inventory: 16,
   },
@@ -624,7 +682,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Black & White",
-    imgUrl: PNG12,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775667/POS-Dribble/PNG12_zv9xqt.png",
     price: "$399",
     inventory: 8,
   },
@@ -632,7 +691,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Sky Blue",
-    imgUrl: PNG13,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775663/POS-Dribble/PNG13_ych1c3.png",
     price: "$699",
     inventory: 7,
   },
@@ -640,7 +700,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Colors",
-    imgUrl: PNG14,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG14_nuavlz.png",
     price: "$499",
     inventory: 3,
   },
@@ -648,7 +709,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Ghost",
-    imgUrl: PNG15,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775664/POS-Dribble/PNG15_eg3tzg.png",
     price: "$799",
     inventory: 11,
   },
@@ -656,7 +718,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Fire",
-    imgUrl: PNG5,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG5_tebxu6.png",
     price: "$799",
     inventory: 12,
   },
@@ -664,7 +727,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Bumble",
-    imgUrl: PNG6,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG6_wtifwf.png",
     price: "$459",
     inventory: 6,
   },
@@ -672,7 +736,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Long",
-    imgUrl: PNG7,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG7_gd15ti.png",
     price: "$295",
     inventory: 18,
   },
@@ -680,7 +745,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Green",
-    imgUrl: PNG8,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG8_pcrqdw.png",
     price: "$499",
     inventory: 17,
   },
@@ -688,7 +754,8 @@ export const REEBOK_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Reebok",
     name: "Reebok Ojay",
-    imgUrl: PNG9,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG9_kpezlx.png",
     price: "$495",
     inventory: 13,
   },
@@ -699,7 +766,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Purple",
-    imgUrl: PNG1,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775674/POS-Dribble/PNG1_egvyvf.png",
     price: "$299",
     inventory: 13,
   },
@@ -708,7 +776,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Green",
-    imgUrl: PNG8,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG8_pcrqdw.png",
     price: "$499",
     inventory: 17,
   },
@@ -717,7 +786,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Fire",
-    imgUrl: PNG5,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG5_tebxu6.png",
     price: "$799",
     inventory: 12,
   },
@@ -725,7 +795,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Bumble",
-    imgUrl: PNG6,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG6_wtifwf.png",
     price: "$459",
     inventory: 6,
   },
@@ -734,7 +805,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Purple",
-    imgUrl: PNG1,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775674/POS-Dribble/PNG1_egvyvf.png",
     price: "$299",
     inventory: 13,
   },
@@ -742,7 +814,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma White",
-    imgUrl: PNG2,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775658/POS-Dribble/PNG2_odrgyz.png",
     price: "$199",
     inventory: 11,
   },
@@ -750,7 +823,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Khaki",
-    imgUrl: PNG3,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG3_ppnoyl.png",
     price: "$499",
     inventory: 3,
   },
@@ -759,7 +833,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Cream",
-    imgUrl: PNG10,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG10_een5vd.png",
     price: "$999",
     inventory: 5,
   },
@@ -767,7 +842,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Black Fire",
-    imgUrl: PNG11,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG11_pbgfbp.png",
     price: "$699",
     inventory: 16,
   },
@@ -775,7 +851,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma White",
-    imgUrl: PNG2,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775658/POS-Dribble/PNG2_odrgyz.png",
     price: "$199",
     inventory: 11,
   },
@@ -783,7 +860,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Khaki",
-    imgUrl: PNG3,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG3_ppnoyl.png",
     price: "$499",
     inventory: 3,
   },
@@ -791,7 +869,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Red",
-    imgUrl: PNG4,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG4_yi36jw.png",
     price: "$249",
     inventory: 19,
   },
@@ -799,7 +878,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Black & White",
-    imgUrl: PNG12,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775667/POS-Dribble/PNG12_zv9xqt.png",
     price: "$399",
     inventory: 8,
   },
@@ -807,7 +887,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Sky Blue",
-    imgUrl: PNG13,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775663/POS-Dribble/PNG13_ych1c3.png",
     price: "$699",
     inventory: 7,
   },
@@ -815,7 +896,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Colors",
-    imgUrl: PNG14,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG14_nuavlz.png",
     price: "$499",
     inventory: 3,
   },
@@ -823,7 +905,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Ojay",
-    imgUrl: PNG9,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG9_kpezlx.png",
     price: "$495",
     inventory: 13,
   },
@@ -831,7 +914,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Cream",
-    imgUrl: PNG10,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG10_een5vd.png",
     price: "$999",
     inventory: 5,
   },
@@ -839,7 +923,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Black Fire",
-    imgUrl: PNG11,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG11_pbgfbp.png",
     price: "$699",
     inventory: 16,
   },
@@ -847,7 +932,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Black & White",
-    imgUrl: PNG12,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775667/POS-Dribble/PNG12_zv9xqt.png",
     price: "$399",
     inventory: 8,
   },
@@ -855,7 +941,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Sky Blue",
-    imgUrl: PNG13,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775663/POS-Dribble/PNG13_ych1c3.png",
     price: "$699",
     inventory: 7,
   },
@@ -863,7 +950,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Long",
-    imgUrl: PNG7,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG7_gd15ti.png",
     price: "$295",
     inventory: 18,
   },
@@ -871,7 +959,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Green",
-    imgUrl: PNG8,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG8_pcrqdw.png",
     price: "$499",
     inventory: 17,
   },
@@ -880,7 +969,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Colors",
-    imgUrl: PNG14,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG14_nuavlz.png",
     price: "$499",
     inventory: 3,
   },
@@ -888,7 +978,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Ghost",
-    imgUrl: PNG15,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775664/POS-Dribble/PNG15_eg3tzg.png",
     price: "$799",
     inventory: 11,
   },
@@ -896,7 +987,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Ghost",
-    imgUrl: PNG15,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775664/POS-Dribble/PNG15_eg3tzg.png",
     price: "$799",
     inventory: 11,
   },
@@ -904,7 +996,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Fire",
-    imgUrl: PNG5,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG5_tebxu6.png",
     price: "$799",
     inventory: 12,
   },
@@ -912,7 +1005,8 @@ export const PUMA_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Puma",
     name: "Puma Bumble",
-    imgUrl: PNG6,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG6_wtifwf.png",
     price: "$459",
     inventory: 6,
   },
@@ -923,7 +1017,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Purple",
-    imgUrl: PNG1,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775674/POS-Dribble/PNG1_egvyvf.png",
     price: "$299",
     inventory: 13,
   },
@@ -931,7 +1026,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans White",
-    imgUrl: PNG2,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775658/POS-Dribble/PNG2_odrgyz.png",
     price: "$199",
     inventory: 11,
   },
@@ -939,7 +1035,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Black Fire",
-    imgUrl: PNG11,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG11_pbgfbp.png",
     price: "$699",
     inventory: 16,
   },
@@ -947,7 +1044,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Khaki",
-    imgUrl: PNG3,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG3_ppnoyl.png",
     price: "$499",
     inventory: 3,
   },
@@ -955,7 +1053,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Red",
-    imgUrl: PNG4,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG4_yi36jw.png",
     price: "$249",
     inventory: 19,
   },
@@ -963,7 +1062,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Black & White",
-    imgUrl: PNG12,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775667/POS-Dribble/PNG12_zv9xqt.png",
     price: "$399",
     inventory: 8,
   },
@@ -971,7 +1071,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Sky Blue",
-    imgUrl: PNG13,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775663/POS-Dribble/PNG13_ych1c3.png",
     price: "$699",
     inventory: 7,
   },
@@ -979,7 +1080,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Colors",
-    imgUrl: PNG14,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG14_nuavlz.png",
     price: "$499",
     inventory: 3,
   },
@@ -987,7 +1089,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Green",
-    imgUrl: PNG8,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG8_pcrqdw.png",
     price: "$499",
     inventory: 17,
   },
@@ -995,7 +1098,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Red",
-    imgUrl: PNG4,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG4_yi36jw.png",
     price: "$249",
     inventory: 19,
   },
@@ -1003,7 +1107,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Purple",
-    imgUrl: PNG1,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775674/POS-Dribble/PNG1_egvyvf.png",
     price: "$299",
     inventory: 13,
   },
@@ -1011,7 +1116,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans White",
-    imgUrl: PNG2,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775658/POS-Dribble/PNG2_odrgyz.png",
     price: "$199",
     inventory: 11,
   },
@@ -1019,7 +1125,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Fire",
-    imgUrl: PNG5,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG5_tebxu6.png",
     price: "$799",
     inventory: 12,
   },
@@ -1027,7 +1134,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Bumble",
-    imgUrl: PNG6,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG6_wtifwf.png",
     price: "$459",
     inventory: 6,
   },
@@ -1035,7 +1143,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Long",
-    imgUrl: PNG7,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG7_gd15ti.png",
     price: "$295",
     inventory: 18,
   },
@@ -1043,7 +1152,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Ojay",
-    imgUrl: PNG9,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG9_kpezlx.png",
     price: "$495",
     inventory: 13,
   },
@@ -1051,7 +1161,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Cream",
-    imgUrl: PNG10,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG10_een5vd.png",
     price: "$999",
     inventory: 5,
   },
@@ -1059,7 +1170,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Black Fire",
-    imgUrl: PNG11,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG11_pbgfbp.png",
     price: "$699",
     inventory: 16,
   },
@@ -1068,7 +1180,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Long",
-    imgUrl: PNG7,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG7_gd15ti.png",
     price: "$295",
     inventory: 18,
   },
@@ -1076,7 +1189,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Green",
-    imgUrl: PNG8,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG8_pcrqdw.png",
     price: "$499",
     inventory: 17,
   },
@@ -1084,7 +1198,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Ojay",
-    imgUrl: PNG9,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG9_kpezlx.png",
     price: "$495",
     inventory: 13,
   },
@@ -1092,7 +1207,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Cream",
-    imgUrl: PNG10,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG10_een5vd.png",
     price: "$999",
     inventory: 5,
   },
@@ -1100,7 +1216,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Black Fire",
-    imgUrl: PNG11,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775661/POS-Dribble/PNG11_pbgfbp.png",
     price: "$699",
     inventory: 16,
   },
@@ -1108,7 +1225,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Black & White",
-    imgUrl: PNG12,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775667/POS-Dribble/PNG12_zv9xqt.png",
     price: "$399",
     inventory: 8,
   },
@@ -1116,7 +1234,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Sky Blue",
-    imgUrl: PNG13,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775663/POS-Dribble/PNG13_ych1c3.png",
     price: "$699",
     inventory: 7,
   },
@@ -1124,7 +1243,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Colors",
-    imgUrl: PNG14,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775665/POS-Dribble/PNG14_nuavlz.png",
     price: "$499",
     inventory: 3,
   },
@@ -1132,7 +1252,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Black & White",
-    imgUrl: PNG12,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775667/POS-Dribble/PNG12_zv9xqt.png",
     price: "$399",
     inventory: 8,
   },
@@ -1140,7 +1261,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Sky Blue",
-    imgUrl: PNG13,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775663/POS-Dribble/PNG13_ych1c3.png",
     price: "$699",
     inventory: 7,
   },
@@ -1148,7 +1270,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Fire",
-    imgUrl: PNG5,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775660/POS-Dribble/PNG5_tebxu6.png",
     price: "$799",
     inventory: 12,
   },
@@ -1156,7 +1279,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Bumble",
-    imgUrl: PNG6,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775659/POS-Dribble/PNG6_wtifwf.png",
     price: "$459",
     inventory: 6,
   },
@@ -1164,7 +1288,8 @@ export const VANS_ARTICLES_DATA = [
     id: Math.random(),
     brand: "Vans",
     name: "Vans Ghost",
-    imgUrl: PNG15,
+    imgUrl:
+      "https://res.cloudinary.com/dmx2jpgqn/image/upload/v1675775664/POS-Dribble/PNG15_eg3tzg.png",
     price: "$799",
     inventory: 11,
   },
