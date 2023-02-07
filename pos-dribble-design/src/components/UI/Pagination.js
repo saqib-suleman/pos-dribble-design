@@ -1,32 +1,24 @@
 import React from "react";
+import classes from "./Pagination.module.css";
 
-function Pagination() {
-  const [currentPage, setCurrentPage] = useState(1);
-  const postsPerPage = 10;
+function Pagination({ articlesPerPage, totalArticles, paginate }) {
   const pageNumbers = [];
 
-  const indexOfLastPost = currentPage * postsPerPage;
-  const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
-
-  for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
+  for (let i = 1; i <= Math.ceil(totalArticles / articlesPerPage); i++) {
     pageNumbers.push(i);
   }
 
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
-
   return (
-    <nav>
-      <ul className={classes.Pagination}>
+    <nav className={classes.Pagination}>
+      <ul>
         {pageNumbers.map((number) => (
           <li key={number} className={classes.page_item}>
-            <a
+            <button
               onClick={() => paginate(number)}
-              href="!#"
               className={classes.page_link}
             >
               {number}
-            </a>
+            </button>
           </li>
         ))}
       </ul>

@@ -3,11 +3,6 @@ import classes from "./BrandCard.module.css";
 import { Link } from "react-router-dom";
 
 function BrandCard({ brand }) {
-  // const [brand, setBrand] = useState("");
-
-  // (function (brand) {})();
-  // let bgColor = brand.name == "Nike" ? { backgroundColor: "#208bff" } : brand.name == 'Reebok' ? { backgroundColor: "#fe6347" };
-
   let CardColor;
   let NotchColor;
   switch (brand.name) {

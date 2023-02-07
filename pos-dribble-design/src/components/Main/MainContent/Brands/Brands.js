@@ -7,7 +7,7 @@ function Brands() {
   return (
     <CardsWrapper>
       {BRANDS_DATA.map((brand) => (
-        <BrandCard key={Math.random()} brand={brand} />
+        <BrandCard key={brand.id} brand={brand} />
       ))}
     </CardsWrapper>
   );

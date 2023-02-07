@@ -2,11 +2,7 @@ import React from "react";
 import Pagination from "../../UI/Pagination";
 
 function Footer() {
-  return (
-    <div>
-      <Pagination />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default Footer;

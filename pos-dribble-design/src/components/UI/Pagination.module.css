@@ -1,0 +1,24 @@
+.Pagination {
+  height: 8rem;
+  width: 100%;
+  background-color: #3a3a46;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+
+.Pagination ul {
+  display: flex;
+  justify-content: center;
+}
+
+.Pagination ul li button {
+  height: 4rem;
+  width: 4rem;
+  margin: 2rem;
+  background-color: transparent;
+  color: #eaebf0;
+  border: 1px solid #9fa0a3;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
