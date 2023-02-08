@@ -45,17 +45,51 @@
   position: absolute;
   z-index: 10;
   border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
   text-align: center;
+  overflow: hidden;
+  color: #ffffff;
+  backdrop-filter: blur(0.5rem);
 }
 
-.Card .on_enter span {
+.Card .on_enter .on_enter_body {
+  display: flex;
+  flex-direction: column;
+}
+
+.Card .on_enter .on_enter_body p {
+  font-size: 3rem;
+  line-height: 15rem;
+}
+
+.Card .on_enter .on_enter_body span {
+  flex: 3;
   font-size: 5rem;
+  line-height: 15rem;
+}
+
+.Card .on_enter .on_enter_body button {
+  flex: 1;
+  background-color: #59be46;
+  border: none;
+  color: inherit;
+  font-size: 1.7rem;
+  line-height: 5rem;
+  cursor: pointer;
+}
+
+.Card .on_enter .on_enter_body .disabled_button {
+  background-color: grey;
+  cursor: default;
+}
+/* .Card .on_enter .on_enter_text {
   color: #ffffff;
   flex: 3;
 }
 
-.Card .on_enter button {
-  flex: 1;
+
+
+.Card .on_enter .on_enter_text p {
+  font-size: 3rem;
 }
+
+*/
