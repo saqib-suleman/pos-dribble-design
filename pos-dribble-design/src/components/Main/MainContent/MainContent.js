@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Brands from "./Brands/Brands";
 import classes from "./MainContent.module.css";
 import { Route, Routes } from "react-router-dom";
@@ -11,14 +11,18 @@ import {
   VANS_ARTICLES_DATA,
 } from "../../../seeds/INVENTORY";
 
-function MainContent() {
+function MainContent({ searchTerm }) {
+  const filtered_NIKE_ARTICLES_DATA = NIKE_ARTICLES_DATA.filter((article) =>
+    article.name.toLowerCase().includes(searchTerm)
+  );
+
   return (
     <div className={classes.mainContent}>
       <Brands />
       <Routes>
         <Route
           path="/nike"
-          element={<Articles articles={NIKE_ARTICLES_DATA} />}
+          element={<Articles articles={filtered_NIKE_ARTICLES_DATA} />}
         />
         <Route
           path="/adidas"
@@ -36,7 +40,10 @@ function MainContent() {
           path="/vans"
           element={<Articles articles={VANS_ARTICLES_DATA} />}
         />
-        <Route path="/" element={<Articles articles={NIKE_ARTICLES_DATA} />} />
+        <Route
+          path="/"
+          element={<Articles articles={filtered_NIKE_ARTICLES_DATA} />}
+        />
       </Routes>
     </div>
   );

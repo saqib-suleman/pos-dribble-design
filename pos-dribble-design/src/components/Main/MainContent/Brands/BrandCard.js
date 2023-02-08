@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import classes from "./BrandCard.module.css";
 import { Link } from "react-router-dom";
 
-function BrandCard({ brand }) {
+function BrandCard({ brand, isActive, setActiveIdHandler }) {
   let CardColor;
   let NotchColor;
   switch (brand.name) {
@@ -52,7 +52,8 @@ function BrandCard({ brand }) {
     <Link
       to={`/${brand.name}`}
       style={{ textDecoration: "none", color: "black" }}
-      className={classes.Card}
+      className={`${classes.Card} ${isActive && classes.card_active}`}
+      onClick={() => setActiveIdHandler(brand.id)}
     >
       <div className={classes.Notch} style={NotchColor}></div>
       <article className={classes.upperBody} style={CardColor}>

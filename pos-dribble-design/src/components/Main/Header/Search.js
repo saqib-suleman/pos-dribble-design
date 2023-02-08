@@ -1,13 +1,20 @@
 import React from "react";
 import classes from "./Search.module.css";
 
-function Search() {
+function Search({ searchTermHandler }) {
+  const handleSubmit = (e) => e.preventDefault();
+
+  const handleSearchChange = (e) => {
+    searchTermHandler(e.target.value);
+  };
+
   return (
     <div className={classes.search}>
-      <form className={classes.form}>
+      <form className={classes.form} onSubmit={handleSubmit}>
         <input
           className={classes.input}
           type="text"
+          onChange={handleSearchChange}
           placeholder="Search by product name, category, ..."
         />
         <button className={classes.button}>

@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Pagination.module.css";
 
-function Pagination({ articlesPerPage, totalArticles, paginate }) {
+function Pagination({ articlesPerPage, totalArticles, paginate, currentPage }) {
   const pageNumbers = [];
 
   for (let i = 1; i <= Math.ceil(totalArticles / articlesPerPage); i++) {
@@ -15,7 +15,9 @@ function Pagination({ articlesPerPage, totalArticles, paginate }) {
           <li key={number} className={classes.page_item}>
             <button
               onClick={() => paginate(number)}
-              className={classes.page_link}
+              className={`${classes.page_link} ${
+                currentPage === number && classes.page_active
+              }`}
             >
               {number}
             </button>

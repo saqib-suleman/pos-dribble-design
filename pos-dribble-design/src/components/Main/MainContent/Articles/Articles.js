@@ -4,7 +4,7 @@ import Pagination from "../../../UI/Pagination";
 import ArticleCard from "./ArticleCard";
 import classes from "./Articles.module.css";
 
-function Articles({ articles }) {
+function Articles({ articles, searchTerm }) {
   const [currentPage, setCurrentPage] = useState(1);
   const articlesPerPage = 10;
 
@@ -14,6 +14,9 @@ function Articles({ articles }) {
     indexOfFirstArticle,
     indexOfLastArticle
   );
+  // const searchResults = currentArticles.filter((article) =>
+  //   article.name.includes(searchTerm)
+  // );
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
@@ -32,6 +35,7 @@ function Articles({ articles }) {
         articlesPerPage={articlesPerPage}
         totalArticles={articles.length}
         paginate={paginate}
+        currentPage={currentPage}
       />
     </div>
   );
