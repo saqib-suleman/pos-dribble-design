@@ -1,0 +1,21 @@
+.sideHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sideHeader button {
+  background-color: white;
+  color: #424242;
+  border: 1px solid #eeeeee;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  /* height: 3rem; */
+  font-size: 1.7rem;
+  font-weight: 500;
+  box-shadow: 7px 7px 9px -5px rgba(0, 0, 0, 0.28);
+}
+
+.customer_body {
+  flex: 3;
+}
