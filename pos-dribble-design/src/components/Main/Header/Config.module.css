@@ -17,6 +17,7 @@
   border: none;
   border-radius: 1rem;
   box-shadow: 7px 7px 9px -5px rgba(0, 0, 0, 0.28);
+  cursor: pointer;
 }
 
 .buttonsWrapper button svg {

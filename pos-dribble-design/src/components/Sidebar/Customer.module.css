@@ -17,5 +17,38 @@
 }
 
 .customer_body {
-  flex: 3;
+  margin-top: 1.5rem;
+  flex: 2;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-top: 2px solid #efefef;
+  border-bottom: 2px solid #efefef;
+}
+
+.customer_body_ticket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer_body_ticket h3 {
+  font-size: 2.5rem;
+}
+
+.customer_body_button {
+  margin: 2.5rem auto;
+  width: 100%;
+  color: #5abe46;
+  background-color: white;
+  border: 2px solid #efefef;
+  border-radius: 2rem;
+  padding: 0.7rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 7px 7px 9px -5px rgba(0, 0, 0, 0.28);
 }
