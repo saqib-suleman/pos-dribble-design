@@ -1,5 +1,7 @@
 .cart {
   flex: 4;
+  border-bottom: 2px solid #efefef;
+  overflow: auto;
 }
 
 .cart ul li {
@@ -17,10 +19,11 @@
   width: 6rem;
   background-color: #e2ecff;
   font-size: 1.5rem;
+  font-weight: 500;
   margin: 0.5rem 0.5rem;
   border: none;
   border-radius: 1rem;
-  color: #208bff;
+  color: #3996fa;
 }
 
 .item_price_qty {
@@ -37,4 +40,5 @@
 .item_price_qty .item_qty {
   font-size: 1.5rem;
   align-self: flex-end;
+  color: #a09e9e;
 }

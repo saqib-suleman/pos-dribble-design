@@ -1,3 +1,64 @@
 .payment {
   flex: 4;
+  margin-top: 4rem;
+}
+
+.payment .calc div {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-bottom: 1.3rem;
+}
+
+.calc .subtotal {
+  font-size: 2rem;
+}
+
+.calc .tax {
+  font-size: 1.4rem;
+  color: #a09e9e;
+}
+
+.calc .total {
+  font-size: 2.3rem;
+}
+
+.payment_options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment_options button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 12rem;
+  border: 2px solid #a09e9e;
+  border-radius: 2rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  background-color: white;
+}
+
+.payment_options button.active {
+  border-color: #58be46;
+  background-color: #f7fcf6;
+}
+
+.payment_button {
+  color: white;
+  font-size: 2.8rem;
+  background-color: #58be46;
+  border: none;
+  width: 100%;
+  height: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+}
+
+.payment_button span {
+  font-weight: 600;
 }
