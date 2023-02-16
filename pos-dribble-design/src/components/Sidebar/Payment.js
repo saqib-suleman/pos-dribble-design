@@ -1,19 +1,29 @@
 import React, { useState } from "react";
 import classes from "./Payment.module.css";
+import { v4 as uuid } from "uuid";
 import {
   UilCreditCard,
   UilMoneyBill,
   UilPlusCircle,
 } from "@iconscout/react-unicons";
+import Button from "../UI/Button";
+
+const buttons = [
+  { id: uuid(), icon: <UilCreditCard size="30" />, text: "Debit card" },
+  { id: uuid(), icon: <UilMoneyBill size="30" />, text: "Cash" },
+  { id: uuid(), icon: <UilPlusCircle size="30" />, text: "Other" },
+];
 
 function Payment() {
-  const [active, setActive] = useState(false);
+  const [activeId, setActiveId] = useState();
 
   const subtotal = 199;
   const tax = +(subtotal * 0.2).toFixed(2);
   const total = subtotal + tax;
 
-  const clickHandler = (id) => {};
+  const clickHandler = (id) => {
+    setActiveId(id);
+  };
 
   return (
     <div className={classes.payment}>
@@ -32,24 +42,14 @@ function Payment() {
         </div>
       </div>
       <div className={classes.payment_options}>
-        <button className={classes.active} id={Math.random()}>
-          <span>
-            <UilCreditCard size="30" />
-          </span>
-          <span>Debit card</span>
-        </button>
-        <button id={Math.random()}>
-          <span>
-            <UilMoneyBill size="30" />
-          </span>
-          <span>Cash</span>
-        </button>
-        <button id={Math.random()}>
-          <span>
-            <UilPlusCircle size="30" />
-          </span>
-          <span>Other</span>
-        </button>
+        {buttons.map((button) => (
+          <Button
+            key={button.id}
+            button={button}
+            isActive={activeId === button.id}
+            clickHandler={clickHandler}
+          />
+        ))}
       </div>
       <button className={classes.payment_button}>
         Pay now <span>${total}</span>

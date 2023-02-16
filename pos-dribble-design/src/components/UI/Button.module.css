@@ -1,0 +1,18 @@
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 12rem;
+  border: 2px solid #a09e9e;
+  border-radius: 2rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  background-color: white;
+}
+
+.button.active {
+  border-color: #58be46;
+  background-color: #f7fcf6;
+}
