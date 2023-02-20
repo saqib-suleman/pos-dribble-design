@@ -1,8 +1,20 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import CartContext from "../../../../store/cart-context";
 import classes from "./ArticleCard.module.css";
 
 function ArticleCard({ article }) {
   const [mouseEnter, setMouseEnter] = useState(false);
+
+  const cartCtx = useContext(CartContext);
+
+  const addToCartHandler = () => {
+    cartCtx.addItem({
+      id: article.id,
+      name: article.name,
+      price: article.price,
+      qty: 1,
+    });
+  };
 
   const mouseEnterHandler = () => {
     setMouseEnter(true);
@@ -31,8 +43,8 @@ function ArticleCard({ article }) {
             </div>
           ) : (
             <div className={classes.on_enter_body}>
-              <span>{article.price}</span>
-              <button>Add to cart</button>
+              <span>${article.price}</span>
+              <button onClick={addToCartHandler}>Add to cart</button>
             </div>
           )}
         </div>

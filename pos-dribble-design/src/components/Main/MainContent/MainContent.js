@@ -3,6 +3,7 @@ import Brands from "./Brands/Brands";
 import classes from "./MainContent.module.css";
 import { Route, Routes } from "react-router-dom";
 import Articles from "./Articles/Articles";
+import { v4 as uuid } from "uuid";
 import {
   NIKE_ARTICLES_DATA,
   ADIDAS_ARTICLES_DATA,
@@ -40,7 +41,11 @@ function MainContent({ searchTerm }) {
       <Brands />
       <Routes>
         {routes.map(({ path, articles }) => (
-          <Route path={path} element={<Articles articles={articles} />} />
+          <Route
+            key={uuid()}
+            path={path}
+            element={<Articles articles={articles} />}
+          />
         ))}
       </Routes>
     </div>

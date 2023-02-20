@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import classes from "./Payment.module.css";
+import CartContext from "../../store/cart-context";
 import { v4 as uuid } from "uuid";
 import {
   UilCreditCard,
@@ -16,8 +17,9 @@ const buttons = [
 
 function Payment() {
   const [activeId, setActiveId] = useState();
+  const cartCtx = useContext(CartContext);
 
-  const subtotal = 199;
+  const subtotal = cartCtx.totalAmount;
   const tax = +(subtotal * 0.2).toFixed(2);
   const total = subtotal + tax;
 

@@ -29,6 +29,9 @@
   padding: 1rem;
   box-shadow: 7px 7px 9px -5px rgba(0, 0, 0, 0.28);
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form .button svg {
