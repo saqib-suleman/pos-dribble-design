@@ -28,3 +28,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* @media (min-width: 1920px) {
+  html {
+    font-size: 55%;
+  }
+} */

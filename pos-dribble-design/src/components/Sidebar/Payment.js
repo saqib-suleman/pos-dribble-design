@@ -15,9 +15,10 @@ const buttons = [
   { id: uuid(), icon: <UilPlusCircle size="30" />, text: "Other" },
 ];
 
-function Payment() {
+function Payment({ setShowModal }) {
   const [activeId, setActiveId] = useState();
   const cartCtx = useContext(CartContext);
+  const hasItems = cartCtx.items.length > 0;
 
   const subtotal = cartCtx.totalAmount;
   const tax = +(subtotal * 0.2).toFixed(2);
@@ -27,36 +28,42 @@ function Payment() {
     setActiveId(id);
   };
 
+  const paymentHandler = () => {
+    hasItems && setShowModal(true);
+  };
+
   return (
-    <div className={classes.payment}>
-      <div className={classes.calc}>
-        <div className={classes.subtotal}>
-          <span>Subtotal</span>
-          <span>${subtotal}</span>
+    <>
+      <div className={classes.payment}>
+        <div className={classes.calc}>
+          <div className={classes.subtotal}>
+            <span>Subtotal</span>
+            <span>${subtotal}</span>
+          </div>
+          <div className={classes.tax}>
+            <span>Tax (20%)</span>
+            <span>${tax}</span>
+          </div>
+          <div className={classes.total}>
+            <span>Total</span>
+            <span>${total}</span>
+          </div>
         </div>
-        <div className={classes.tax}>
-          <span>Tax (20%)</span>
-          <span>${tax}</span>
+        <div className={classes.payment_options}>
+          {buttons.map((button) => (
+            <Button
+              key={button.id}
+              button={button}
+              isActive={activeId === button.id}
+              clickHandler={clickHandler}
+            />
+          ))}
         </div>
-        <div className={classes.total}>
-          <span>Total</span>
-          <span>${total}</span>
-        </div>
+        <button onClick={paymentHandler} className={classes.payment_button}>
+          Pay now <span>${total}</span>
+        </button>
       </div>
-      <div className={classes.payment_options}>
-        {buttons.map((button) => (
-          <Button
-            key={button.id}
-            button={button}
-            isActive={activeId === button.id}
-            clickHandler={clickHandler}
-          />
-        ))}
-      </div>
-      <button className={classes.payment_button}>
-        Pay now <span>${total}</span>
-      </button>
-    </div>
+    </>
   );
 }
 

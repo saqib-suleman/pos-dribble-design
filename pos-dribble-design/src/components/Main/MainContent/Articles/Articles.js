@@ -22,19 +22,21 @@ function Articles({ articles }) {
   }, [articles]);
 
   return (
-    <div className={classes.Articles}>
-      <CardsWrapper>
-        {currentArticles.map((article) => (
-          <ArticleCard key={article.id} article={article} />
-        ))}
-      </CardsWrapper>
+    <>
+      <div className={classes.Articles}>
+        <CardsWrapper>
+          {currentArticles.map((article) => (
+            <ArticleCard key={article.id} article={article} />
+          ))}
+        </CardsWrapper>
+      </div>
       <Pagination
         articlesPerPage={articlesPerPage}
         totalArticles={articles.length}
         paginate={paginate}
         currentPage={currentPage}
       />
-    </div>
+    </>
   );
 }
 
