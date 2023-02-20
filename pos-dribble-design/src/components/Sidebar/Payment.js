@@ -59,7 +59,11 @@ function Payment({ setShowModal }) {
             />
           ))}
         </div>
-        <button onClick={paymentHandler} className={classes.payment_button}>
+        <button
+          disabled={!activeId}
+          onClick={paymentHandler}
+          className={classes.payment_button}
+        >
           Pay now <span>${total}</span>
         </button>
       </div>
